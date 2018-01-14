@@ -14,6 +14,12 @@ namespace RSA
             _d = d;
         }
 
+        public BigInteger d
+        {
+            get { return _d; }
+        }
+    
+
         private BigInteger _d;
     }
 }

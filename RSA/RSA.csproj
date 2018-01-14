@@ -45,8 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Decrypt.cs" />
-    <Compile Include="Encrypt.cs" />
+    <Compile Include="Decryptor.cs" />
+    <Compile Include="Encryptor.cs" />
     <Compile Include="Euclidean.cs" />
     <Compile Include="KeyFactory.cs" />
     <Compile Include="KeyGen.cs" />

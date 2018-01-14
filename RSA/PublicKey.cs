@@ -15,6 +15,15 @@ namespace RSA
             _e = e;
         }
 
+        public BigInteger N
+        {
+            get { return _N; }
+        }
+
+        public BigInteger e
+        {
+            get { return _e; }
+        }
         private BigInteger _N;
         private BigInteger _e;
     }
